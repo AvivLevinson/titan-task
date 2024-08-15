@@ -1,0 +1,9 @@
+package-lock.json
+.env
+
+/node_modules
+/dist
+/MacOS
+/MACOSX_
+/.DS_Store
+

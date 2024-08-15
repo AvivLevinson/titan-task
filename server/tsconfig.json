@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          // Set the JavaScript version for output
+    "module": "commonjs",                     // CommonJS modules for Node.js
+    "outDir": "./dist",                       // Redirect output structure to 'dist' folder
+    "rootDir": "./src",                       // Specify the root folder of source files
+    "strict": true,                           // Enable all strict type-checking options
+    "esModuleInterop": true,                  // Enables compilation of ES6 modules
+    "noEmitOnError":false,
+    "skipLibCheck": true, //todo: remove this
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true, // Enable support for decorators
+    "emitDecoratorMetadata": true,  // Emit design-type metadata for decorated declarations
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],                    // Include all files in the src folder
+  "exclude": ["node_modules", "dist"]
+}
